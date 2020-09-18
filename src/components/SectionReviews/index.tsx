@@ -40,8 +40,8 @@ const SectionReviews = ({ title, reviews }: SectionReviewsProps) => (
           <ReviewCard
             key={index}
             name={name}
-            image={photo.url}
-            description={text}
+            photo={photo}
+            text={text}
             id={index}
           />
         ))}
